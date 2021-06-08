@@ -9,7 +9,7 @@ export default function Navi() {
                 <Menu.Item fixed="left">
 
                     <Icon size='big' name='users'/>
-                     HRMS 
+                    HRMS 
                        
 
                         </Menu.Item>
