@@ -4,6 +4,7 @@ import Navi from './layouts/Navi';
 import Dashboard from './layouts/Dashboard';
 import { Container } from 'semantic-ui-react';
 
+
 function App(){
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App(){
       <Container className="main">
       <Dashboard/>
       </Container>
+      
     </div>
   );
 }

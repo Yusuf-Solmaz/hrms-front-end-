@@ -2,6 +2,8 @@ import React from 'react'
 import AdvertisementList from '../pages/AdvertisementList'
 import Sidebar from './Sidebar'
 import { Grid } from "semantic-ui-react";
+import { Route } from 'react-router';
+
 
 export default function Dashboard(){
     return(
@@ -12,11 +14,15 @@ export default function Dashboard(){
             <Sidebar />
           </Grid.Column>
           <Grid.Column width={12}>
-            <AdvertisementList/>
+            {/* <AdvertisementList/> */}
+            <Route path="/" component={AdvertisementList}/>
+            <Route exact path="/advertisementList" component={AdvertisementList}/>
           </Grid.Column>
+          
         </Grid.Row>
       </Grid> 
         </div>
+        //deneme
     )
 
 }

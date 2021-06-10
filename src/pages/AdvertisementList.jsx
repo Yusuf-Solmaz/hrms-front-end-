@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table,Icon,Menu,Label } from 'semantic-ui-react'
+import { Table,Icon,Menu,Label,Button } from 'semantic-ui-react'
 
 
 export default function AdvertisementList() {
@@ -83,7 +83,11 @@ export default function AdvertisementList() {
                         </Table.HeaderCell>
                     </Table.Row>
                 </Table.Footer>
+
+        
+
             </Table>
+            
         </div>
     )
 
